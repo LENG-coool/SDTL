@@ -3,8 +3,8 @@ import katex from 'markdown-it-katex'
 
 export default defineConfig({
   base: '/SDTL/',
-  title: 'SDTL',
-  lang: 'zh-CN',
+  title: 'Deep Transfer Learning',
+  lang: 'en-US',
 
   locales: {
     root: { 

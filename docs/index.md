@@ -69,7 +69,6 @@ The paper's contributions are primarily reflected in:
 - **Broad Applicability**: Can handle different cathode materials (NCM vs NCA) and environmental temperature variations.
 - **Engineering Value**: Provides a practical, lightweight, and high-precision SOH online estimation solution for BMS (Battery Management Systems).
 
----
 
 ## Reference Information
 

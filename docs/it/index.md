@@ -69,7 +69,6 @@ I contributi del articolo si riflettono principalmente in:
 - **Ampia Applicabilità**: Può gestire diversi materiali catodici (NCM vs NCA) e variazioni della temperatura ambiente.
 - **Valore Ingegneristico**: Fornisce una soluzione di stima online dello SOH pratica, leggera e ad alta precisione per BMS (Battery Management Systems).
 
----
 
 ## Informazioni di Riferimento
 
