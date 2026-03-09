@@ -16,7 +16,7 @@ Per affrontare queste sfide, un articolo pubblicato sulla prestigiosa rivista *J
 Lo studio propone un efficiente sistema SDTL con tre componenti principali: **estrazione delle caratteristiche**, **pre-addestramento** e **ottimizzazione fine**:
 
 <p align="center">
-  <img src="/docs/public/fig1.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig1.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Architettura del Sistema di Apprendimento Trasferiere Profondo (SDTL) Basato su Meccanismo di Auto-Attenzione</p>
 
@@ -25,7 +25,7 @@ Lo studio propone un efficiente sistema SDTL con tre componenti principali: **es
 I ricercatori hanno estratto **18 indicatori di salute** da tensione/corrente di carica, tensione/corrente di scarica e curve di capacità incrementale (IC). Utilizzando il **Coefficiente di Correlazione di Pearson (PCC)** per filtrare le caratteristiche altamente correlate con SOH (come HI3, HI5, HI11, ecc.), hanno assicurato l'interpretabilità fisica e la capacità di rappresentazione dei dati di input.
 
 <p align="center">
-  <img src="/docs/public/fig2.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig2.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Analisi del Coefficiente di Correlazione di Pearson (PCC) tra gli Indicatori di Salute Estratti (HI) e SOH</p>
 
@@ -34,7 +34,7 @@ I ricercatori hanno estratto **18 indicatori di salute** da tensione/corrente di
 A differenza dei tradizionali RNN o LSTM, SDTL impiega un **Meccanismo di Auto-Attenzione Multi-Testa**. Cattura dipendenze globali in diverse posizioni nella serie temporale e assegna automaticamente pesi alle caratteristiche di degrado più critiche, consentendo un'identificazione più accurata dei modelli di degrado della batteria in diverse condizioni di funzionamento.
 
 <p align="center">
-  <img src="/docs/public/fig3.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig3.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Diagramma dell'Architettura del Modulo di Auto-Attenzione Multi-Testa</p>
 
@@ -48,7 +48,7 @@ A differenza dei tradizionali RNN o LSTM, SDTL impiega un **Meccanismo di Auto-A
 Per verificare la prestazione di generalizzazione di SDTL, i ricercatori hanno condotto test sperimentali estremamente rigorosi:
 
 <p align="center">
-  <img src="/docs/public/fig8.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig8.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Risultati della Stima dello SOH del Modello SDTL sui Dati delle Batterie Sperimentali</p>
 
@@ -57,7 +57,7 @@ Per verificare la prestazione di generalizzazione di SDTL, i ricercatori hanno c
 - **Vantaggi Comparativi**: Rispetto ai tradizionali algoritmi di apprendimento profondo e ad altri metodi di apprendimento trasferiere, SDTL mostra vantaggi chiari negli scenari con pochi campioni, eliminando l'alto costo dell'addestramento dei modelli da zero.
 
 <p align="center">
-  <img src="/docs/public/fig9.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig9.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Confronto delle Prestazioni di Previsione tra SDTL e Modelli Mainstream (CNN-LSTM, GRU, ResNet)</p>
 

@@ -16,7 +16,7 @@ To address these challenges, a paper published in the prestigious journal *Journ
 The study proposes an efficient SDTL system with three core components: **feature extraction**, **pre-training**, and **fine-tuning**:
 
 <p align="center">
-  <img src="/docs/public/fig1.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig1.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">System Architecture of Deep Transfer Learning (SDTL) Based on Self-Attention Mechanism</p>
 
@@ -25,7 +25,7 @@ The study proposes an efficient SDTL system with three core components: **featur
 The researchers extracted **18 health indicators** from charge voltage/current, discharge voltage/current, and incremental capacity (IC) curves. By using **Pearson Correlation Coefficient (PCC)** to filter out features highly correlated with SOH (such as HI3, HI5, HI11, etc.), they ensured the physical interpretability and representation capability of the input data.
 
 <p align="center">
-  <img src="/docs/public/fig2.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig2.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Pearson Correlation Coefficient (PCC) Analysis Between Extracted Health Indicators (HIs) and SOH</p>
 
@@ -34,7 +34,7 @@ The researchers extracted **18 health indicators** from charge voltage/current, 
 Unlike traditional RNN or LSTM, SDTL employs a **Multi-Head Self-Attention Mechanism**. It captures global dependencies at different positions in time series and automatically assigns weights to more critical degradation features, enabling more accurate identification of battery degradation patterns under different operating conditions.
 
 <p align="center">
-  <img src="/docs/public/fig3.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig3.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Multi-Head Self-Attention Module Architecture Diagram</p>
 
@@ -48,7 +48,7 @@ Unlike traditional RNN or LSTM, SDTL employs a **Multi-Head Self-Attention Mecha
 To verify the generalization performance of SDTL, the researchers conducted extremely rigorous experimental tests:
 
 <p align="center">
-  <img src="/docs/public/fig8.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig8.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">SOH Estimation Results of SDTL Model on Experimental Battery Data</p>
 
@@ -57,7 +57,7 @@ To verify the generalization performance of SDTL, the researchers conducted extr
 - **Comparative Advantages**: Compared to mainstream deep learning algorithms and other transfer learning methods, SDTL exhibits clear advantages in small-sample scenarios, eliminating the high cost of training models from scratch.
 
 <p align="center">
-  <img src="/docs/public/fig9.png" style="width: 100%; margin: 0 auto; display: block;">
+  <img src="/fig9.png" style="width: 100%; margin: 0 auto; display: block;">
 </p>
 <p align="center" style="color: grey">Comparison of Prediction Performance Between SDTL and Mainstream Models (CNN-LSTM, GRU, ResNet)</p>
 
